@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/loginbg"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to StyleVault"
+        android:textSize="24sp"
+        android:textColor="@color/BlueGrey"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+
+    <Button
+        android:id="@+id/bodyMeasurementButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Your Body Type"
+        android:backgroundTint="@color/BlueGrey"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/moodBoardButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pinterest Mood Board"
+        android:backgroundTint="@color/BlueGrey"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/chatbotButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chatbot"
+        android:backgroundTint="@color/BlueGrey"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:backgroundTint="@color/BlueGrey"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
