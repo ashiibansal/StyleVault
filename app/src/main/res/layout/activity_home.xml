@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg1"
+    android:padding="20dp"
+    android:paddingBottom="30dp"> <!-- Added paddingBottom to avoid overlap with nav bar -->
+
+    <!-- User Icon positioned on top-right -->
+    <ImageView
+        android:id="@+id/userIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/baseline_account_circle_24"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="User Info" />
+
+    <!-- Content layout centered -->
+    <LinearLayout
+        android:id="@+id/contentLayout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to StyleVault"
+            android:textSize="24sp"
+            android:textColor="@color/BlueGrey"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/bodyMeasurementButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📏 Find Your Body Type"
+            android:backgroundTint="@color/BlueGrey"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="15dp" />
+
+        <Button
+            android:id="@+id/moodBoardButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🎨 Mood Board"
+            android:backgroundTint="@color/BlueGrey"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="15dp" />
+
+        <Button
+            android:id="@+id/chatbotButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💬 Ask AI Stylist"
+            android:backgroundTint="@color/BlueGrey"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="15dp" />
+
+    </LinearLayout>
+</RelativeLayout>

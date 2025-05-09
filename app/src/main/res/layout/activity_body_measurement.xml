@@ -1,0 +1,119 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Your Body Measurements"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/heightInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Height (cm)"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:gravity="center"
+            android:background="@android:drawable/editbox_background"/>
+
+        <EditText
+            android:id="@+id/weightInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Weight (kg)"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/editbox_background"/>
+
+        <EditText
+            android:id="@+id/shoulderInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Shoulder Width (cm)"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/editbox_background"/>
+
+        <EditText
+            android:id="@+id/chestInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Chest Size (cm)"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/editbox_background"/>
+
+        <EditText
+            android:id="@+id/waistInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Waist Size (cm)"
+            android:inputType="numberDecimal"
+            android:padding="10dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/editbox_background"/>
+
+        <Button
+            android:id="@+id/calculateBodyTypeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find My Body Type"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:backgroundTint="@color/BlueGrey"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/viewLastMeasurementButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Last Measurement"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:backgroundTint="@color/grey"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go Back"
+            android:gravity="center"
+            android:backgroundTint="@color/BlueGrey"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/resultText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result will be displayed here"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

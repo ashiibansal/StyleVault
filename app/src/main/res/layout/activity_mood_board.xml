@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg1"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Select Your Style Inspiration"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/smartCasualButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/BlueGrey"
+        android:text="Smart Casual"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/businessAttireButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/grey"
+        android:text="Business Attire"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/streetwearButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/BlueGrey"
+        android:text="Streetwear"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/athleisureButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/grey"
+        android:text="Athleisure"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/minimalistButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/BlueGrey"
+        android:text="Minimalist Fashion"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/vintageButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/grey"
+        android:text="Vintage Aesthetic"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/edgyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/BlueGrey"
+        android:text="Edgy and Bold"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/weekendRelaxedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/grey"
+        android:text="Weekend Relaxed"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/BlueGrey"
+        android:text="Go Back"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
